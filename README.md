@@ -5,9 +5,10 @@ A Java-based fuzz testing application
 The fuzzer is based on a lecture on fuzzing by security researcher Charlie Miller.
 
 See the lectures here:
-[https://www.youtube.com/watch?v=Xnwodi2CBws]
-[https://www.youtube.com/watch?v=lK5fgCvS2N4]
-
+```
+https://www.youtube.com/watch?v=Xnwodi2CBws
+https://www.youtube.com/watch?v=lK5fgCvS2N4
+```
 Additionally, here are the five lines of code written in his lecture:
 ```
 numwrites = random.randrange(math.ceil((float(len(buf)) / FuzzFactor))) + 1
